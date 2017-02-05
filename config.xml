@@ -42,7 +42,7 @@
    </plugin>
     
     <gap:plugin name="com.simplec.plugins.localnotification" />
-
+    <framework src="com.android.support:support-v4:+" />
 	<icon src="icon.png" />
 	
     <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
