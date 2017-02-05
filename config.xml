@@ -40,7 +40,7 @@
   	 <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
    <gap:plugin name="phonegap-facebook-plugin" spec="0.12.0" source="npm">
       <param  name="APP_ID" value="640373029476597" />
-      <param name="APP_NAME" value="AppName" /> 
+      <param name="APP_NAME" value="DeccanDigest" /> 
 </gap:plugin>
      
     <framework src="com.android.support:support-v4:+" />
