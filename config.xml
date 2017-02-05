@@ -40,7 +40,6 @@
   	 <gap:plugin name="cordova-plugin-file-transfer"   source="npm" />
   	 <gap:plugin name="cordova-plugin-vibration"  source="npm" />
   	 <gap:plugin name="cordova-plugin-dialogs"  source="npm" />
-	<gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
 	
   	 <gap:plugin name="cordova-plugin-screen-orientation"  source="npm" />
   	 <gap:plugin name="cordova-media-with-compression"  spec="2.0.15" source="npm"  />
@@ -50,8 +49,6 @@
     	  <param  name="APP_ID" value="640373029476597" />
      	 <param name="APP_NAME" value="DeccanDigest" /> 
 		</gap:plugin>
-     <dependency id="cordova-plugin-googleplayservices" />
-    <framework src="com.android.support:support-v4:+" />
 
    	<icon src="icon.png" />
 	
