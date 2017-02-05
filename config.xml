@@ -9,7 +9,8 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
-      <preference name="android-build-tool" value="gradle" /> 
+    <preference name="android-build-tool"  	  value="gradle" /> 
+	<gap:plugin name="cordova-plugin-admobpro"  source="npm" />
 	<gap:plugin name="cordova-plugin-device"  source="npm" />
 	<gap:plugin name="cordova-plugin-camera"  source="npm" />
 	<gap:plugin name="cordova-plugin-media-capture"  source="npm" />
@@ -34,7 +35,7 @@
   	 <gap:plugin name="cordova-plugin-file-transfer"   source="npm" />
   	 <gap:plugin name="cordova-plugin-vibration"  source="npm" />
   	 <gap:plugin name="cordova-plugin-dialogs"  source="npm" />
-	<gap:plugin name="cordova-plugin-admobpro"  source="npm" />
+	
 	
   	 <gap:plugin name="cordova-plugin-screen-orientation"  source="npm" />
   	 <gap:plugin name="cordova-media-with-compression"  spec="2.0.15" source="npm"  />
