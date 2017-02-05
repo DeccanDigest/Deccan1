@@ -10,40 +10,51 @@
 	<preference name="android-minSdkVersion" value="14" />
 	<preference name="android-maxSdkVersion" value="23" />
 	<preference name="android-build-tool" value="gradle" />	
-
-	<preference name="showmessageinnotification" value="true" />
-<preference name="defaultnotificationmessage" value="New Post on DeccanDigest!" />
-    
-    <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
-    "<preference name="AndroidPersistentFileLocation" value="Compatibility" />
-	<gap:plugin name="phonegap-admob" source="npm"/>
-	<gap:plugin name="cordova-plugin-device"  source="npm" />
-	<gap:plugin name="cordova-plugin-camera"  source="npm" />
-	<gap:plugin name="cordova-plugin-media-capture"  source="npm" />
-	<gap:plugin name="cordova-plugin-splashscreen"  source="npm" />
-	<gap:plugin name="cordova-plugin-contacts"  source="npm" />
-	<gap:plugin name="cordova-plugin-geolocation"  source="npm" />
-	<gap:plugin name="cordova-plugin-inappbrowser"  source="npm" /> 	
-	<gap:plugin name="cordova-plugin-vibration"  source="npm" />
-	<gap:plugin name="cordova-plugin-push-notification" source="npm"/>
-	<gap:plugin name="cordova-plugin-network-information"  source="npm" />
-	<gap:plugin name="cordova-plugin-local-notifications" source="npm"/>
- 	<gap:plugin name="cordova-plugin-device"  source="npm" />
+	<preference name="DisallowOverscroll" value="true" />
+    	<preference name="android-minSdkVersion" value="14" />
+    	<preference name="StatusBarOverlaysWebView" value="false" />
+    	<preference name="StatusBarBackgroundColor" value="#ee6e73" />
+    	<preference name="StatusBarStyle" value="blacktranslucent" />
+    	<preference name="showmessageinnotification" value="true" />
+	<preference name="defaultnotificationmessage" value="New Post on DeccanDigest!" />
+        <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+    	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+	
+	 <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.3" />
+    	 <gap:plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
+         <variable name="SENDER_ID" value="XXXXXXX" />
+    	 </gap:plugin>
+    	 <gap:plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
+    	 <gap:plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
+    	 <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+	 <gap:plugin name="phonegap-admob" source="npm"/>
+	 <gap:plugin name="cordova-plugin-device"  source="npm" />
+	 <gap:plugin name="cordova-plugin-camera"  source="npm" />
+	 <gap:plugin name="cordova-plugin-media-capture"  source="npm" />
+	 <gap:plugin name="cordova-plugin-splashscreen"  source="npm" />
+	 <gap:plugin name="cordova-plugin-contacts"  source="npm" />
+	 <gap:plugin name="cordova-plugin-geolocation"  source="npm" />
+	 <gap:plugin name="cordova-plugin-inappbrowser"  source="npm" /> 	
+	 <gap:plugin name="cordova-plugin-vibration"  source="npm" />
+	 <gap:plugin name="cordova-plugin-push-notification" source="npm"/>
+	 <gap:plugin name="cordova-plugin-network-information"  source="npm" />
+	 <gap:plugin name="cordova-plugin-local-notifications" source="npm"/>
+ 	 <gap:plugin name="cordova-plugin-device"  source="npm" />
    	 <gap:plugin name="cordova-plugin-nativeaudio"  source="npm" />
-   	<gap:plugin name="cordova-plugin-console"  source="npm" />
+   	 <gap:plugin name="cordova-plugin-console"  source="npm" />
   	 <gap:plugin name="cordova-plugin-splashscreen"  source="npm" />
-   	<gap:plugin name="cordova-plugin-statusbar"  source="npm" />
-   	<gap:plugin name="ionic-plugin-keyboard"  source="npm" />
-   	<gap:plugin name="cordova-plugin-file"   source="npm" />
+   	 <gap:plugin name="cordova-plugin-statusbar"  source="npm" />
+   	 <gap:plugin name="ionic-plugin-keyboard"  source="npm" />
+   	 <gap:plugin name="cordova-plugin-file"   source="npm" />
   	 <gap:plugin name="cordova-plugin-file-transfer"   source="npm" />
   	 <gap:plugin name="cordova-plugin-vibration"  source="npm" />
   	 <gap:plugin name="cordova-plugin-dialogs"  source="npm" />
-	<gap:plugin name="generator-android-gradle-basic" source="npm"/>
+	 <gap:plugin name="generator-android-gradle-basic" source="npm"/>
   	 <gap:plugin name="cordova-plugin-screen-orientation"  source="npm" />
   	 <gap:plugin name="cordova-media-with-compression"  spec="2.0.15" source="npm"  />
   	 <gap:plugin name="cordova-plugin-local-notifications" version="0.8.1" source="npm"/>
   	 <gap:plugin name="@telerik/cordova-plugin-wkwebview" source="npm" />
-   	<gap:plugin name="phonegap-facebook-plugin" spec="0.12.0" source="npm">
+   	 <gap:plugin name="phonegap-facebook-plugin" spec="0.12.0" source="npm">
     	  <param  name="APP_ID" value="640373029476597" />
      	 <param name="APP_NAME" value="DeccanDigest" /> 
 		</gap:plugin>
