@@ -22,7 +22,7 @@
    	 <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
 	<gap:plugin name="cordova-plugin-Vibration"  source="npm" />
 	<gap:plugin name="cordova-plugin-network-information"  source="npm" />
-	<gap:plugin name="com.simplec.plugins.localnotification" />
+	
  	<gap:plugin name="cordova-plugin-device"  source="npm" />
    	 <gap:plugin name="cordova-plugin-whitelist" source="npm" />
    	 <gap:plugin name="cordova-plugin-nativeaudio"  source="npm" />
@@ -42,7 +42,9 @@
       <param  name="APP_ID" value="1744909255724698" />
       <param name="APP_NAME" value="AppName" />
    </plugin>
-    
+     
+    <framework src="com.android.support:support-v4:+" />
+
    	<icon src="icon.png" />
 	
     <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
