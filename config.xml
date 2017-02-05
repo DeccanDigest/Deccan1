@@ -16,22 +16,19 @@
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     "<preference name="AndroidPersistentFileLocation" value="Compatibility" />
-	<gap:plugin name="admob" version="5.4.2" source="npm"/>
+	<gap:plugin name="phonegap-admob" source="npm"/>
 	<gap:plugin name="cordova-plugin-device"  source="npm" />
 	<gap:plugin name="cordova-plugin-camera"  source="npm" />
 	<gap:plugin name="cordova-plugin-media-capture"  source="npm" />
 	<gap:plugin name="cordova-plugin-splashscreen"  source="npm" />
 	<gap:plugin name="cordova-plugin-contacts"  source="npm" />
 	<gap:plugin name="cordova-plugin-geolocation"  source="npm" />
-	<gap:plugin name="cordova-plugin-inappbrowser"  source="npm" />
-	
-    	
+	<gap:plugin name="cordova-plugin-inappbrowser"  source="npm" /> 	
 	<gap:plugin name="cordova-plugin-vibration"  source="npm" />
 	<gap:plugin name="cordova-plugin-push-notification" source="npm"/>
 	<gap:plugin name="cordova-plugin-network-information"  source="npm" />
 	<gap:plugin name="cordova-plugin-local-notifications" source="npm"/>
  	<gap:plugin name="cordova-plugin-device"  source="npm" />
-   	 <gap:plugin name="cordova-plugin-whitelist" source="npm" />
    	 <gap:plugin name="cordova-plugin-nativeaudio"  source="npm" />
    	<gap:plugin name="cordova-plugin-console"  source="npm" />
   	 <gap:plugin name="cordova-plugin-splashscreen"  source="npm" />
