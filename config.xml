@@ -34,7 +34,7 @@
    <gap:plugin name="cordova-plugin-dialogs"  source="npm" />
    <gap:plugin name="cordova-plugin-screen-orientation"  source="npm" />
    <gap:plugin name="cordova-media-with-compression"  spec="2.0.15" source="npm"  />
-   <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
+   
    <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
    <plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0" source="pgb">
       <param  name="APP_ID" value="1744909255724698" />
