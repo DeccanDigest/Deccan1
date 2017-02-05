@@ -5,7 +5,7 @@
     <description>Representing Hyderabad Karnataka, Fast news from gulbarga City and region</description>
     <author email="deccandigest@gmail.com" href="http://www.deccandigest.com">DeccanDigest</author>
 
-    <preference name="phonegap-version" value="5.0.0" />
+    <preference name="phonegap-version" value="3.7.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
 	<preference name="android-minSdkVersion" value="14" />
 	<preference name="android-maxSdkVersion" value="23" />
