@@ -38,7 +38,7 @@
   	 <gap:plugin name="cordova-media-with-compression"  spec="2.0.15" source="npm"  />
   	 <gap:plugin name="cordova-plugin-local-notifications" version="0.8.1" source="npm"/>
   	 <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
-   <gap:plugin name="phonegap-facebook-plugin" spec="0.9.0" source="npm"/>
+   <gap:plugin name="phonegap-facebook-plugin" spec="0.12.0" source="npm"/>
       <param  name="APP_ID" value="640373029476597" />
       <param name="APP_NAME" value="AppName" />
 
